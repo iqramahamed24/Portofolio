@@ -1,0 +1,106 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: 0%
+}
+
+body {
+    background: beige;
+}
+
+.pyramid {
+    display: flex;
+    margin-left: 1000px;
+    width: 50px; 
+}
+
+.Homepage {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.Homepage a {
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.header-text p{
+    font-size: 30px;
+    color: black;
+    
+}
+.header-text h3{
+    font-size: 80px;
+}
+
+.header-text h1 {
+    font-size: 100px;
+    margin-top: 20px;
+}
+
+.header-text h3 span {
+    color: blueviolet;
+}
+
+.About{
+    display: flex;
+    align-content: center;
+    font-size: 25px; 
+    padding: 40px;
+
+}
+
+.para{
+    flex: 1;
+    padding: 100px;
+    font-size: 40px;
+}
+.Description {
+    display: flex;
+    align-items: center;
+    margin-left: 450px;
+    
+}
+.Description h3{
+    flex: 1;
+    padding-left: 40px;
+
+}
+
+.technical {
+    flex: 1;
+    margin-right: 50px;
+    
+}
+
+.non-technical {
+    flex: 1;
+    padding: 40px;
+    margin-left: 240px;
+}
+
+.project {
+    display: flex;
+    margin-left: 50px;
+}
+
+.podcast {
+    margin-left: 100px;
+}
+
+.clothing {
+    margin-left: 150px;
+}
+
+.forminput {
+    display: flex;
+    align-items: center;
+    margin-left: 500px;
+    border-radius: 50px;
+}
+
